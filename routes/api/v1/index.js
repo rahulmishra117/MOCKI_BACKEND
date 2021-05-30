@@ -17,9 +17,11 @@ router.use('/post',require('./post'));
 router.use('/comment',require('./comment'));
 
 // User can Book their Slot 
-router.use('/slot',require('./slot'));
+ router.use('/slot',require('./slot'));
 
 // Interviewer Can add the Question
 router.use('/question',require('./question'));
+
+
 
 module.exports=router;
